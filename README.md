@@ -84,7 +84,7 @@ app.delete("/cats", (req, res) => {
 open a new terminal and run `psql`
 
 ```sh
-psql
+psql postgres
 # now you should enter sql prompt
 # check you're connected to the right db by getting connection info
 \conninfo
